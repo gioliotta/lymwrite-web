@@ -2,9 +2,8 @@ import donwloadIcon from "../assets/download-icon.svg";
 
 function Download() {
   function downloadFile() {
-    const filePath = "./LymWrite-setup.exe",
-      link = document.createElement("a");
-    link.href = filePath;
+    const link = document.createElement("a");
+    link.href = "../../LymWrite-setup.exe";
     link.download = "LymWrite-setup.exe";
     document.body.appendChild(link);
     link.click();
