@@ -5,6 +5,8 @@ function Download() {
         <a
           download
           href="https://drive.google.com/file/d/13LxIzKvQXfckMr1yNJFFeMN2NEfFdpUF"
+          target="_blank"
+          rel="noreferrer"
         >
           Descargar para Windows
         </a>
