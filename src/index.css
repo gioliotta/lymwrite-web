@@ -129,7 +129,7 @@
   color: #b9b9b9 !important;
 }
 
-.download-text span {
+.download-text a {
   font-size: 1.3em;
   color: #6472c4;
   cursor: pointer;
