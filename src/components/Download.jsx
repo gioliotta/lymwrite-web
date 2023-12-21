@@ -3,10 +3,9 @@ function Download() {
     <div className="container-download">
       <p className="download-text">
         <a
-          download
-          href="https://drive.google.com/file/d/13LxIzKvQXfckMr1yNJFFeMN2NEfFdpUF"
-          target="_blank"
-          rel="noreferrer"
+          onClick={() =>
+            alert("LymWrite todavía no está disponible, muy pronto lo estará")
+          }
         >
           Descargar para Windows
         </a>
@@ -17,3 +16,14 @@ function Download() {
 }
 
 export default Download;
+
+/* 
+<a
+download
+href="https://drive.google.com/file/d/13LxIzKvQXfckMr1yNJFFeMN2NEfFdpUF"
+target="_blank"
+rel="noreferrer"
+>
+Descargar para Windows
+</a> 
+*/
