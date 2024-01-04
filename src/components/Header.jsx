@@ -14,6 +14,10 @@ function Header() {
         <span style={{ fontWeight: "bold" }}>L</span>ym
         <span style={{ fontWeight: "bold" }}>W</span>rite
       </p>
+      <p className="point">
+        <span>🟢&nbsp;&nbsp;</span>
+        Sigue en desarrollo
+      </p>
     </header>
   );
 }
